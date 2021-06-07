@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as dayjs from 'dayjs'
 
 @Component({
   selector: 'app-root',
