@@ -59,8 +59,12 @@
     </div>
 
     <div style="text-align: center;">
-      <button class="button" onclick="submit()">Enviar</button>
+      <button class="button" (click)="submit()">Enviar</button>
     </div>
+  </div>
 
+  <div class="popup" *ngIf="popup">
+    <p>Registrado com sucesso!</p>
+    <button (click)="closePopup()" class="button">OK!</button>
   </div>
 </section>

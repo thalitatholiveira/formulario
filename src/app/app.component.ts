@@ -8,7 +8,14 @@ import { NgxMaskModule, IConfig } from 'ngx-mask'
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  
+
+  popup = false;
+
+  public submit() {
+    this.popup = true;
+  }
+
+  public closePopup() {
+    this.popup = false;
+  }
 }
-
-

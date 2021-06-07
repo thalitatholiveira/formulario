@@ -86,3 +86,18 @@
 .button:hover {
   background-color: rgb(36, 32, 33);
 }
+
+.popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 15em;
+  height: 10em;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(121, 42, 42);
+  color: rgb(121, 42, 42);
+}
