@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import * as dayjs from 'dayjs'
+import { NgxMaskModule, IConfig } from 'ngx-mask'
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,7 @@ import * as dayjs from 'dayjs'
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'crud-project';
+  
 }
 
 
