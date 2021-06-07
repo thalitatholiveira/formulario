@@ -1,0 +1,71 @@
+<section class="bg">
+  <header class="header">
+    <h1>Cadastre-se!</h1>
+    <p>Complete suas informações abaixo.</p>
+  </header>
+
+  <div class="form">
+    <div class="input-box">
+      <label for="input">Primeiro nome *</label>
+      <input type="text" class="form-input" name="input">
+    </div>
+
+    <div class="input-box">
+      <label for="input">Último nome *</label>
+      <input type="text" class="form-input" name="input">
+    </div>
+
+    <div class="select-box">
+      <div class="input-box">
+        <label for="input">Gênero *</label>
+        <select class="form-input select" id="gender" required>
+          <option selected disabled>Selecione</option>
+          <option value="feminino">Feminino</option>
+          <option value="masculino">Masculino</option>
+          <option value="outro">Outro</option>
+        </select>
+      </div>
+      <div class="input-box">
+        <label for="input">Data de nascimento *</label>
+        <div class="birthday">
+          <select class="form-input select" id="month" required>
+            <option selected disabled>Mês</option>
+          </select>
+
+          <select class="form-input select" id="day" required>
+            <option selected disabled>Dia</option>
+          </select>
+
+          <select class="form-input select" id="year" required>
+            <option selected disabled>Ano</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-box">
+      <label for="input">Telefone *</label>
+      <input type="text" class="form-input">
+    </div>
+
+    <div class="input-box">
+      <label for="input">E-mail *</label>
+      <input type="email" class="form-input">
+    </div>
+
+    <div class="input-box">
+      <label for="input">Cidade *</label>
+      <input type="text" class="form-input">
+    </div>
+
+    <div class="input-box">
+      <label for="input">Estado *</label>
+      <input type="text" class="form-input">
+    </div>
+
+    <div style="text-align: center;">
+      <button class="button" onclick="submit()">Enviar</button>
+    </div>
+
+  </div>
+</section>
